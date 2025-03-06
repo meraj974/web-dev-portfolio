@@ -26,7 +26,9 @@
 .secondary-bg{
    background-color:  #FFF8F3;
 }
-
+.text-center{
+    text-align: center;
+}
 /* nav styles*/
 nav {
     display: flex;
@@ -91,12 +93,14 @@ nav ul a {
 .about{
    text-align: center;
 padding: 131px 156px;
-margin-top: 130px;
-border-radius: 10px;    
+
+border-radius: 10px;  
+
 }
 .about-items{
     display: flex;
     justify-content: space-around;
+   
 }
 .section-title{
     color: #181818;
@@ -109,9 +113,26 @@ font-size: 18px;
 font-weight: 200px;
 }
 
+
 /* main styles */
 main{
     max-width: 1140px;
-    margin: 0 auto;
-   
+    margin: 0 auto;  
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* skils section */
+.skill-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.text-center{
+    font-size: 18px;
+    font-weight: 400;
 }
