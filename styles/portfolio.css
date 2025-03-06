@@ -5,14 +5,17 @@
     font-variation-settings:
         "wdth" 100;
 }
+
 /* shared style */
 .text-primary {
     color: #FD6E0A;
 }
-.dark-2{
-   color:  #474747;
+
+.dark-2 {
+    color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
@@ -20,6 +23,10 @@
     padding: 18px 35px;
     font-weight: 20px;
 }
+.secondary-bg{
+   background-color:  #FFF8F3;
+}
+
 /* nav styles*/
 nav {
     display: flex;
@@ -27,46 +34,84 @@ nav {
     align-items: center;
     margin: 0 200px;
 }
-nav ul{
+
+nav ul {
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul li{
-   list-style: none;
-   margin-right: 40px;
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
 }
-nav ul a{
-    text-decoration:  none;
+
+nav ul a {
+    text-decoration: none;
 }
+
 /* header */
-.header{
+.header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     margin-left: 20px;
-
 }
+
 /* banner style */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-    margin: 0 38px 0 200px;   
+    margin: 0 38px 0 200px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 590px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 500;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 800;
     font-size: 85px;
 }
-.banner-profile-pic{
+
+.banner-profile-pic {
     width: 590px;
+}
+
+/* about styles */
+.about{
+   text-align: center;
+padding: 131px 156px;
+margin-top: 130px;
+border-radius: 10px;    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+color: #757575;
+font-size: 18px;
+font-weight: 200px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+   
 }
