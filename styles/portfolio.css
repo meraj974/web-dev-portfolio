@@ -26,9 +26,9 @@
 .secondary-bg{
    background-color:  #FFF8F3;
 }
-.text-center{
-    text-align: center;
-}
+
+
+
 /* nav styles*/
 nav {
     display: flex;
@@ -100,6 +100,7 @@ border-radius: 10px;
 .about-items{
     display: flex;
     justify-content: space-around;
+    
    
 }
 .section-title{
@@ -132,7 +133,9 @@ main section{
 padding: 30px;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.text-center{
-    font-size: 18px;
-    font-weight: 400;
+.text-cntr{
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
+
