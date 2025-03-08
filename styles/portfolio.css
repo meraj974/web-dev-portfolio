@@ -183,20 +183,15 @@ footer{
    width: 50%;
 
 }
-footer input[type=text], footer input[type=email]{
-    height: 74px;
+footer input[type=text], footer input[type=email], footer textarea{
+    height: 64px;
     border-radius: 5px;
     display: block;
     background-color: white;
     color: #757575;
     width: 100%;
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
 }
- footer input textarea { 
-    margin-bottom: 24px;
-border: none;
-padding: 5px 20px;
-} 
 
